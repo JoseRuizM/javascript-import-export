@@ -9,7 +9,7 @@ function substract (x, y) {
     return x - y;
 }
 
-export function multiply (x, y) {
+function multiply (x, y) {
     return x * y;
 }
 
@@ -20,5 +20,6 @@ export function divide (x, y) {
 
 export default{
     add,
-    substract
+    substract,
+    multiply
 }
